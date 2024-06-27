@@ -1,0 +1,32 @@
+// schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+
+
+model Project {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  description String?
+  url         String?
+}
+
+model Skill {
+  id     String   @id @default(auto()) @map("_id") @db.ObjectId
+  name   String
+  level  String? // Example: "Beginner", "Intermediate", "Advanced"
+  description String?
+}
+// model email{
+//   id     String   @id @default(auto()) @map("_id") @db.ObjectId
+//   name   String
+//   email  String
+//   message String
+// }
