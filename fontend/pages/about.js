@@ -1,5 +1,6 @@
 export default function About() {
-    return (<div className="flex justify-center items-center min-h-screen bg-gray-900 text-white">
+    return (
+    <div id="about" className="flex justify-center items-center min-h-screen bg-gray-900 text-white">
         <div className="container mx-auto flex items-center space-x-8 p-8 bg-slate-600 rounded-lg">
             <div className="w-1/2">
             <img

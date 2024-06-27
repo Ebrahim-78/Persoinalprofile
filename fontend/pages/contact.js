@@ -31,7 +31,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen  bg-slate-600 py-10">
+    <div id="contact" className="min-h-screen  bg-slate-600 py-10">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold mb-8 text-center text-white">Contact Me</h1>
         <div className="max-w-md mx-auto bg-slate-800 rounded-lg shadow-lg p-6">

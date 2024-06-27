@@ -9,7 +9,7 @@ export default function Header() {
             <Link href="#/" className="text-white mx-2">Home</Link>
             <Link href="#about" className="text-white mx-2">About</Link>
             <Link href="#projects" className="text-white mx-2">Projects</Link>
-            <Link href="#projects" className="text-white mx-2">Skills</Link>
+            <Link href="#skills" className="text-white mx-2">Skills</Link>
             <Link href="#contact" className="text-white mx-2">Contact</Link>
         </nav>
         </div>
