@@ -10,7 +10,7 @@ export default function Home() {
     <div>
         <Header />
         <main className=" text-white py-10">
-            <div className="  container mx-auto px-4 flex flex-col md:flex-row items-start">
+            <div id='/' className="  container mx-auto px-4 flex flex-col md:flex-row items-start">
                 <div className="w-full md:w-1/2 mt-28 md:pr-10 order-2 md:order-1 ml-52">
                 <h1 className="text-6xl font-bold  text-green-400">Hi There!</h1>
                 <h2 className="text-4xl mt-2" >I am a Full Stack Developer</h2>
