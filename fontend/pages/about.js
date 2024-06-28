@@ -28,7 +28,7 @@ export default function About() {
             <hr className="my-6 border-t-2 border-gray-400" />
             <a
                 href="https://drive.google.com/file/d/1eScGNGLrsJ-2YO1TA_XkNPNWUkyWsxIx/view?usp=sharing"
-                className="inline-block mt-6 px-6 py-2 bg-green-500 text-white font-bold rounded-full"
+                className="inline-block mt-6 px-6 py-2 bg-green-500 text-white font-bold rounded-full  hover:bg-green-700"
             >
                 Download CV
             </a>

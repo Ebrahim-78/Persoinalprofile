@@ -28,7 +28,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.length > 0 ? (
             projects.map(project => (
-              <div key={project.id} className=" bg-slate-600 rounded-lg shadow-lg overflow-hidden">
+              <div key={project.id} className="hover:bg-gray-500 bg-slate-600 rounded-lg shadow-lg overflow-hidden">
                 <div className="p-6">
                   <h2 className="text-green-400 text-2xl font-bold mb-2">{project.title}</h2>
                   <p className="text-white mb-4">{project.description}</p>

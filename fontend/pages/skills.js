@@ -21,13 +21,13 @@ export default function Skills() {
   }, []);
 
   return (
-    <div id='skills' className="min-h-screen bg-slate-600  py-10">
+    <div id='skills' className=" min-h-screen bg-slate-600  py-10">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Skills</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.length > 0 ? (
             skills.map(skill => (
-              <div key={skill.id} className=" bg-slate-800 rounded-lg shadow-lg overflow-hidden">
+              <div key={skill.id} className=" bg-slate-800 rounded-lg shadow-lg overflow-hidden  hover:bg-gray-500 ">
                 <div className="p-6">
                   <h2 className="text-2xl font-bold mb-2 text-green-500">{skill.name}</h2>
                   <p className="text-white mb-4">{skill.description}</p>
